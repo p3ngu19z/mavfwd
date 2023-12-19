@@ -80,6 +80,8 @@ static speed_t speed_by_value(int baudrate)
 		return B115200;
 	case 230400:
 		return B230400;
+	case 420000:
+		return B420000;
 	case 460800:
 		return B460800;
 	case 500000:
